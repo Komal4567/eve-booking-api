@@ -1,0 +1,11 @@
+{
+  "name": "eve-booking-api",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "scripts": { "start": "node src/server.js", "test": "jest --runInBand --forceExit" },
+  "dependencies": {
+    "bcryptjs": "^2.4.3", "express": "^5.1.0", "jsonwebtoken": "^9.0.2",
+    "pg": "^8.13.0", "zod": "^3.23.8"
+  },
+  "devDependencies": { "jest": "^29.7.0", "supertest": "^7.0.0" }
+}
